@@ -1,4 +1,7 @@
 class Solution:
+    """
+        All alphabets of in s should be in t, equal no of times
+    """
     def isAnagram(self, s: str, t: str) -> bool:
         d1 = dict()
         d2 = dict()
